@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alt의 3가지 용법, img</title>
+    <style>
+        h1{background-color: #0000ff; width: 500px;}
+        img{background-color: #808080; width: 500px;}
+        a{background-color: #ffff00; width: 500px;}
+    </style>
+</head>
+<body>
+    <!-- 접근성 향상: 스크린리더기가 alt 속성을 음성으로 읽어줍니다 -->
+    <!-- SEO(search engine optimization): 검색엔진에 이미지의 정보를 알려줍니다 -->
+    <!-- 대체텍스트: 이미지가 안뜰 경우 alt 속성이 대신 화면에 보입니다 -->
+    <h1><img src="./images/01.png" alt="코카콜라"></h1>
+    <img src="./images/01.png" alt="코카콜라">
+    <img src="./images/02.png" alt="코카콜라">
+    <a href="./images/01.png" title="이미지태그">인라인태그</a>
+    <!-- img는 인라인도 아니고 블락도 아니고, 인라인블럭 입니다 -->
+    <!-- 인라인블럭: 요소의 바깥은 inline 안쪽은 block 이므로, inline 요소 처럼  화면에 옆으로 표시되며 block 요소처럼 크기를 가질수 있습니다. -->
+    <!-- img는 크기를 가지기도 하면서, 옆으로 배치됩니다 -->
+</body>
+</html>

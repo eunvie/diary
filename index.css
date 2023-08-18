@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face{font-family: 'IBMPlexSansKR-Text'; src: url('./fonts/IBMPlexSansKR-Text.ttf'); font-weight: 200;}
+
+body{font-family: 'IBMPlexSansKR-Regular';}
+
+li{list-style: none;}
+
+.top{color: #525252; text-align: center; border-bottom: 2px #dbdbdb solid;}
+
+.task{background-color: #ffffff; color: #808080; padding: 20px; margin: 20px;}
+
+.diary{background-color: #ffffff; color: #808080; padding: 20px; margin: 20px;}
+
+a{color: #808080; text-decoration: none;}
+a:hover{color: #f08080; text-decoration: none;}
+
+p{color: #ff0000; background-color: #ffff00;}

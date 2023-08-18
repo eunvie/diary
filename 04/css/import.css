@@ -1,0 +1,5 @@
+@import url('./02.css');
+/* 이게 css 주석 */
+/* css 문서안에 css 불러오기 */
+/* 다른 파일의 설정값을 불러오기도 가능 */
+body{background-color: #fffff0;}
