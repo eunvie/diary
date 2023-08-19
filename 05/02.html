@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageMap</title>
+</head>
+<body>
+    <h1>이미지맵을 이용한 하이퍼링크 연결</h1>
+    <div><img src="./images/banner_map.gif" alt="페이지연결" usemap="#bannerImg"></div>
+    <!-- img를 블록요소로 감싸고, 그림의 크기를 알아낸다(ctrl+sh+c) -->
+    <map name="bannerImg">
+        <!-- rect: 사각형 -->
+        <area shape="rect" coords="0,0,100,100" href="http://naver.com" alt="네이버">
+        <area shape="rect" coords="100,100,200,200" href="http://daum.net" alt="다음">
+        <area shape="rect" coords="100,0,200,100" href="https://www.google.co.kr/?hl=ko" alt="구글">
+        <area shape="rect" coords="0,100,100,200" href="http://eunvie.dothome.co.kr" alt="은비">
+    </map>
+</body>
+</html>
