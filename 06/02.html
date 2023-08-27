@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table2</title>
+    <style>
+        table{border: 1px solid;}
+        td{border: 1px solid;}
+        th{border: 1px solid;}
+        .c1{background: yellow;}
+        .c2{background: aqua;}
+    </style>
+</head>
+
+<body>
+    <h1>수업내용</h1>
+    <table>
+        <!-- caption: 표의 설명이나 제목 | 선택사항 -->
+        <caption>은비의 코딩점수</caption>
+        <!-- colgroup: 그룹영역선언 | caption 요소 다음에 마크업 | thead, tbody, tfoot보다 이전에 마크업 -->
+        <colgroup>
+            <!-- col: table의 열 그룹 | span 속성으로 열 그룹 확장 -->
+            <col class="c1">
+            <col class="c2">
+        </colgroup>
+        <!-- thead: td가 올 수 없습니다. th 사용 -->
+        <thead>
+            <tr>
+                <th>교과목</th>
+                <th>점수</th>
+            </tr>
+        </thead>
+        <tbody>    
+            <tr>
+                <td>HTML</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+        <tfoot>    
+            <tr>
+                <td>평균</td>
+                <td>92.5</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표접근성</title>
+    <style>
+        table,th,td{border: 1px solid; border-collapse: collapse;}
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>상하반기 판매량</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <!-- scope: 스크린리더기에 데이터의 방향을 알려줍니다. -->
+                <th scope="col">구분</th>
+                <th scope="col">데스크탑</th>
+                <th scope="col">스마트폰</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">상반기 판매수</th>
+                <td>2만대</td>
+                <td>5만대</td>
+            </tr>
+            <tr>
+                <th scope="row">하반기 판매수</th>
+                <td>5만대</td>
+                <td>7만대</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
